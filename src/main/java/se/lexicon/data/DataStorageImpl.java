@@ -53,7 +53,7 @@ public class DataStorageImpl implements DataStorage {
     }
 
     @Override
-    public String findOneAndMapToString(Predicate<Person> filter, Function<Person, String> personToString) {
+    public String findOneAndMapToString(Predicate<Person> filter) {
         //todo: implement the method
         return null;
     }
